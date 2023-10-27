@@ -1,0 +1,42 @@
+.navbar {
+    padding: 15px;
+    background-color:#7E80AA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Set your desired background color */
+    padding: 10px; /* Add padding as needed */
+    color: #fff; /* Set the text color */
+  }
+
+  .navbar-left {
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  
+  .navbar-center {
+    flex-grow: 1; /* Takes up remaining space in the center */
+    text-align: center;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  
